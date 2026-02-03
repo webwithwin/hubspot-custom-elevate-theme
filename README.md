@@ -13,7 +13,7 @@ Because this theme is built using HubSpot's project based theme framework, it do
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/morefire-webentwicklung/bodo.git
+   git clone https://github.com/webwithwin/bodo.git
    cd bodo
    ```
 
