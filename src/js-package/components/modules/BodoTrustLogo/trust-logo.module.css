@@ -1,0 +1,16 @@
+.trust-logo {
+    row-gap: 20px;
+    justify-content: space-evenly;
+
+    & .heading {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+
+        @media (prefers-color-scheme: dark) {
+            color: #fff;
+        }
+    }
+
+
+}

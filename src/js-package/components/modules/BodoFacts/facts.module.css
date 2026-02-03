@@ -1,0 +1,38 @@
+.facts {
+    & .direction {
+        justify-content: space-between;
+        
+        @media (max-width: 991.98px) {
+            flex-direction: column-reverse;
+            gap: 48px;
+        }
+    }
+
+    & .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        & .text {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        & .counter {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+    }
+
+    & img {
+        border-radius: 24px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .facts {
+        color: #fff;
+    }
+}

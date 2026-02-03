@@ -1,0 +1,170 @@
+:root {
+    --bs-white: #ffffff;
+    --bs-neutral-lightest: #eeeeee;
+    --bs-neutral-lighter: #cccccc;
+    --bs-neutral-light: #aaaaaa;
+    --bs-neutral: #666666;
+    --bs-neutral-dark: #444444;
+    --bs-neutral-darker: #222222;
+    --bs-neutral-darkest: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bs-color-dark: #363A48;
+    }
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://25480917.fs1.hubspotusercontent-eu1.net/hubfs/25480917/fonts/Roboto-Light.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://25480917.fs1.hubspotusercontent-eu1.net/hubfs/25480917/fonts/Roboto-Regular.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://25480917.fs1.hubspotusercontent-eu1.net/hubfs/25480917/fonts/Roboto-Medium.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://25480917.fs1.hubspotusercontent-eu1.net/hubfs/25480917/fonts/Roboto-SemiBold.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://25480917.fs1.hubspotusercontent-eu1.net/hubfs/25480917/fonts/Roboto-Bold.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://25480917.fs1.hubspotusercontent-eu1.net/hubfs/25480917/fonts/Roboto-ExtraBold.ttf');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: normal;
+}
+
+h1, .heading-1 {
+    font-size: 3.5rem;
+    line-height: 120%;
+}
+
+h2, .heading-2 {
+    font-size: 3rem;
+    line-height: 120%;
+}
+
+h3, .heading-3 {
+    font-size: 2.5rem;
+    line-height: 120%;
+}
+
+h4, .heading-4 {
+    font-size: 2rem;
+    line-height: 130%;
+}
+
+h5, .heading-5 {
+    font-size: 1.5rem;
+    line-height: 140%;
+}
+
+h6, .heading-6 {
+    font-size: 1.25rem;
+    line-height: 140%;
+}
+
+p, .paragraph {
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+small, .small {
+    font-size: 0.875rem;
+    line-height: 150%;
+}
+
+.tiny {
+    font-size: 0.75rem;
+    line-height: 150%;
+}
+
+@media (max-width: 1199.98px) {
+    h1, .heading-1 {
+        font-size: 2.5rem;
+        line-height: 120%;
+    }
+
+    h2, .heading-2 {
+        font-size: 2.25rem;
+        line-height: 120%;
+    }
+
+    h3, .heading-3 {
+        font-size: 2rem;
+        line-height: 120%;
+    }
+
+    h4, .heading-4 {
+        font-size: 1.5rem;
+        line-height: 140%;
+    }
+
+    h5, .heading-5 {
+        font-size: 1.25rem;
+        line-height: 140%;
+    }
+
+    h6, .heading-6 {
+        font-size: 1.125rem;
+        line-height: 140%;
+    }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+    background-color: var(--bs-color-dark, --bs-white);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

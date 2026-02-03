@@ -1,0 +1,4 @@
+{
+  "label": "Bodo",
+  "extends": "@hubspot/elevate"
+}

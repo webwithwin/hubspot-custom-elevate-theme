@@ -1,0 +1,22 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Blank
+-->
+{% extends "./layouts/base.hubl.html" %}
+
+{% block body %}
+
+  {% module "BodoHeader"
+    path="@projects/bodo-lp-theme/js-package/components/modules/BodoHeader" %}
+
+  {% dnd_area "dnd_area"
+    label="Main section"
+  %}
+
+  {% end_dnd_area %}
+
+  {% module "BodoFooter"
+    path="@projects/bodo-lp-theme/js-package/components/modules/BodoFooter" %}
+
+{% endblock body %}
