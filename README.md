@@ -13,8 +13,8 @@ Because this theme is built using HubSpot's project based theme framework, it do
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/webwithwin/bodo.git
-   cd bodo
+   git clone https://github.com/webwithwin/hubspot-custom-elevate-theme.git
+   cd hubspot-custom-elevate-theme
    ```
 
 2. Install dependencies:
