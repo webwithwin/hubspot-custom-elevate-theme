@@ -69,14 +69,6 @@ After you push changed files from your local to staging branch, use pull request
 ## Deploying
 Once you push staging to main branch, commits will automatically trigger a new build in HubSpot.
 
-## Available Scripts
-
-TODO
-
-## Project Structure
-
-TODO
-
 ## Development
 
 The theme uses HubSpot's local development server for real-time preview of your changes. When you run `npm run start` or `yarn yarn-start`, you can view your changes at the local development URL provided by the CLI.
