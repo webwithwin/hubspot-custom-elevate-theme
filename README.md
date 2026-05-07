@@ -68,8 +68,6 @@ After you push changed files from your local to staging branch, use pull request
 
 ## Deploying
 Once you push staging to main branch, commits will automatically trigger a new build in HubSpot.
-Please refer to this URL to see build resullt: https://app-eu1.hubspot.com/developer-projects/25480917/project/bodo-lp-theme/settings
-
 
 ## Available Scripts
 
